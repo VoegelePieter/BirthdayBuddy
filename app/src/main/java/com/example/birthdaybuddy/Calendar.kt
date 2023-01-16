@@ -3,13 +3,12 @@ package com.example.birthdaybuddy
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class ContactOverview : AppCompatActivity() {
+class Calendar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_contact_overview)
+        setContentView(R.layout.activity_calendar)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-
-}
+    }
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true

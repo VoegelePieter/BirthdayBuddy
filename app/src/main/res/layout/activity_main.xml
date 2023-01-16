@@ -12,7 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="Birthday Buddy"
-        app:layout_constraintBottom_toTopOf="@+id/Calenderbutton"
+        app:layout_constraintBottom_toTopOf="@+id/Calendarbutton"
         app:layout_constraintDimensionRatio="650:350"
         app:layout_constraintEnd_toEndOf="@id/guideline4"
         app:layout_constraintHorizontal_bias="0.5"
@@ -21,10 +21,10 @@
         android:backgroundTint="#5BC0F8" />
 
     <Button
-        android:id="@+id/Calenderbutton"
+        android:id="@+id/Calendarbutton"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Calender"
+        android:text="Calendar"
         app:layout_constraintBottom_toTopOf="@+id/Notificationsbutton"
         app:layout_constraintDimensionRatio="650:350"
         app:layout_constraintEnd_toEndOf="@id/guideline4"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/Calenderbutton"
+        app:layout_constraintTop_toBottomOf="@+id/Calendarbutton"
         android:backgroundTint="#5BC0F8"/>
 
     <androidx.constraintlayout.widget.Guideline
