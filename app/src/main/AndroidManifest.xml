@@ -12,6 +12,13 @@
         android:theme="@style/Theme.BirthdayBuddy"
         tools:targetApi="31">
         <activity
+            android:name=".edit_contact"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

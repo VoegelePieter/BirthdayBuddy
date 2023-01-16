@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue"
+    android:paddingTop="?attr/actionBarSize">
+
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/roundet_edittext"
+        android:backgroundTint="#333333"
+        android:paddingStart="25dp"
+        android:text="Devin Pratt"
+        android:textColor="#DDDDDD"
+        app:layout_constraintBottom_toTopOf="@+id/EditText2"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintEnd_toEndOf="@id/guidelineright"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guidelineleft"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/roundet_edittext"
+        android:backgroundTint="#333333"
+        android:paddingStart="25dp"
+        android:textColor="#DDDDDD"
+        android:text="Devin Pratt@email.de"
+        app:layout_constraintBottom_toTopOf="@+id/EditText3"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineright"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guidelineleft"
+        app:layout_constraintTop_toBottomOf="@+id/EditText1" />
+
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/roundet_edittext"
+        android:backgroundTint="#333333"
+        android:paddingStart="25dp"
+        android:textColor="#DDDDDD"
+        android:text="Telefonnummer"
+        app:layout_constraintBottom_toTopOf="@+id/EditText4"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineright"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guidelineleft"
+        app:layout_constraintTop_toBottomOf="@+id/EditText2" />
+
+    <EditText
+        android:id="@+id/EditText4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/roundet_edittext"
+        android:backgroundTint="#333333"
+        android:paddingStart="25dp"
+        android:textColor="#DDDDDD"
+        android:text="Potsdam"
+        app:layout_constraintBottom_toTopOf="@+id/EditText5"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineright"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guidelineleft"
+        app:layout_constraintTop_toBottomOf="@+id/EditText3" />
+
+    <EditText
+        android:id="@+id/EditText5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/roundet_edittext"
+        android:backgroundTint="#333333"
+        android:paddingStart="25dp"
+        android:textColor="#DDDDDD"
+        android:text="Karl-Liebknecht-Straße"
+        app:layout_constraintBottom_toTopOf="@+id/EditText6"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineright"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guidelineleft"
+        app:layout_constraintTop_toBottomOf="@+id/EditText4" />
+
+    <EditText
+        android:id="@+id/EditText6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/roundet_edittext"
+        android:backgroundTint="#333333"
+        android:paddingStart="25dp"
+        android:text="EditText6"
+        android:textColor="#DDDDDD"
+        app:layout_constraintBottom_toTopOf="@+id/edit_button"
+        app:layout_constraintDimensionRatio="6:2.05"
+        app:layout_constraintEnd_toStartOf="@+id/EditText7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guidelineleft"
+        app:layout_constraintTop_toBottomOf="@+id/EditText5" />
+
+    <EditText
+        android:id="@+id/EditText7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/roundet_edittext"
+        android:backgroundTint="#333333"
+        android:paddingStart="25dp"
+        android:text="EditText7"
+        android:textColor="#DDDDDD"
+        app:layout_constraintBottom_toTopOf="@+id/edit_button"
+        app:layout_constraintDimensionRatio="6:2.05"
+        app:layout_constraintEnd_toStartOf="@id/guidelineright"
+        app:layout_constraintStart_toEndOf="@id/EditText6"
+        app:layout_constraintTop_toBottomOf="@+id/EditText5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/edit_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/roundet_button"
+        android:text="Edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineright"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guidelineleft"
+        app:layout_constraintTop_toBottomOf="@+id/EditText6" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidetop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinebottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
