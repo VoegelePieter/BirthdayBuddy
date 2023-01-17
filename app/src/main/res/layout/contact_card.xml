@@ -6,7 +6,8 @@
     android:id="@+id/card"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/contact_card_background">
+    android:background="@drawable/contact_card_background"
+    android:layout_marginBottom="15dp">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/profilePic"
@@ -32,7 +33,6 @@
             android:id="@+id/contactName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jessie LLoyd"
             android:textAppearance="?attr/textAppearanceBody1"
             android:textColor="@color/text_color_dark"
             tools:ignore="HardcodedText" />
@@ -42,7 +42,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="In 6 days"
             android:textAppearance="?attr/textAppearanceBody2"
             android:textColor="@color/text_color_dark"
             tools:ignore="HardcodedText" />

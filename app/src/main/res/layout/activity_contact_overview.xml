@@ -7,13 +7,29 @@
     android:background="@color/darkblue"
     tools:context=".ContactOverview">
 
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/readContactsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="10dp"
+        android:text="Import Contact"
+        android:background="@color/yellow"
+        android:padding="5dp"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/readContactsButton"
         app:layout_constraintLeft_toLeftOf="@id/guidelineMarginLeft"
-        app:layout_constraintRight_toRightOf="@id/guidelineMarginRight"/>
+        app:layout_constraintRight_toRightOf="@id/guidelineMarginRight"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="10dp"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineMarginLeft"
